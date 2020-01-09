@@ -186,7 +186,8 @@ NX 12中有256個可用層，其中之一始終是工作層。 256個圖層中�
 <pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0"> </span></pre>
 <pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0"> </span></pre>
 <pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><em><strong><span lang="zh-TW" tabindex="0"><br/><br/></span></strong></em><strong><span lang="zh-TW" tabindex="0"></span></strong></pre>
-<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0"> </span></pre><h2>第五章-製圖</h2>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0"> </span></pre>
+<h2>第五章-製圖</h2>
 <p><span>NX 12 Drafting應用程序使您可以創建工程圖，視圖，幾何形狀，尺寸和 起草製造所需的註釋以及對工業設計的理解。 本章的目的是為設計人員/製圖員提供有關製圖工具的足夠知識，以便 創建其設計的基本圖紙。製圖應用程序支持工程製圖 符合ANSI標準的模型。在解釋了起草申請的基礎之後， 我們將逐步介紹起草一些先前創建的模型的方法。</span></p>
 <pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><em><strong>5.1概述</strong></em>
 製圖應用程序旨在允許您制定和維護行業標準直接從3D模型或裝配零件製造工程圖。在中創建的工程圖
@@ -214,8 +215,45 @@ NX 12中有256個可用層，其中之一始終是工作層。 256個圖層中�
 現在，在視圖周圍移動光標以獲取剖面平面的方向。保持箭頭垂直向上指點並將截面圖拖動<br/>到基本視圖的底部。如果有干擾，請調整尺寸位置。<br/><em><strong>5.5產品和製造信息</strong></em><br/></span></pre>
 <pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0">產品和製造信息（PMI）是NX中的重要應用之一，提供用於在3D環境中記錄產品的註釋工具<br/>。 PMI申請包括一個全面的3D註釋環境，允許設計團隊共享細節例如幾何尺寸和公差（GD＆<br/>T），表面光潔度，焊接信息，材料規格，評論，政府安全信息或專有信息，等直接添加到3D<br/>模型中。 PMI符合行業標準的3D產品定義和因此，從事協作項目的產品團隊將使用3D模型作<br/>為合法的完整記錄產品和製造信息的方法。<br/><br/></span></pre>
 <pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0"></span></pre>
-<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0"><span> </span></span></pre><h2>第六章</h2>
-<h2>第七章</h2>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0"><span> </span></span></pre>
+<p></p>
+<h2>第六章-裝配與建模</h2>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">每天，我們都會看到許多將組件組裝成一個模型的示例，例如
+例如自行車，汽車和計算機。所有這些產品都是通過設計和
+製造單個零件，然後將它們裝配在一起。創造它們的設計師有
+仔細計劃每個零件，使它們完美地配合在一起以執行所需的操作
+功能。<br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0"><em><strong>6.1術語</strong></em>
+部件裝配體是指向零件和/或子裝配體的指針的集合。裝配是零件
+文件，其中包含組件對象。
+組件對象零部件對像是指向包含零部件的零件文件的非幾何指針
+幾何。組件對象存儲諸如圖層，顏色，參考集，位置之類的信息
+相對於文件系統中零件的裝配體和路徑的零件數據。</span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><em><strong><span lang="zh-TW" tabindex="0">6.2組裝方法<br/></span></strong></em><span lang="zh-TW" tabindex="0"><span>這是創建任何裝配體模型的兩種基本方法。 <br/>•自上而下的方法<br/>•自下而上的方法</span></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">6.2.1自上而下的方法
+通過這種方法，將創建裝配零件文件首先，在該文件中創建組件。然後各個零件均已建模。<br/>這類建模在新設計中很有用。
+6.2.2自下而上的方法
+首先在傳統方式，然後添加到裝配中零件文件。這項技術特別有用，以前的零件文件已經存<br/>在時設計，並且可以重複使用。<br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">6.2.3混合與匹配
+可以將這兩種方法結合起來必要的，以增加裝配的靈活性設計需求。<br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><em><strong>6.3裝配與約束</strong></em>
+導航儀裝配導航器和約束導航器位於部件導航器的頂部屏幕左側的資源欄。這些導航器向您<br/>展示了構成裝配體，包括零件層次結構，零件名稱，有關零件的信息，例如是否部分是只讀<br/>的，對像數和約束狀態。<br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0"><em><strong>6.4匹配約束</strong></em>
+將零部件對象添加到裝配零件文件後，將對每個零部件對象進行配對
+與現有對象。通過在裝配的零部件上分配配合條件，您可以
+在這些組件之間建立位置關係或約束。這些關係是
+稱為交配約束。配合條件由一個或多個配合約束組成。
+有不同的配合約束，如下所述：
+觸摸/對齊：選擇要對齊的平面對象將是共面的，但平面的法線
+將指向同一方向。圓柱物體的中心線將與每個
+其他。
+同心：約束兩個組件的圓形或橢圓形邊緣，因此中心為
+重合併且邊緣的平面共面。
+距離：在兩個對象之間建立一個+/-距離（偏移）值
+平行：所選對象將彼此平行。</span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0"><span>垂直：所選對象將彼此垂直。 <br/>鍵合：創建焊接並將零件焊接在一起以作為單個對象移動。 <br/>居中：對象將在其他對象之間居中，即沿槽定位圓柱體 並將圓柱體在插槽中居中。 <br/>角度：這將在組件上選擇的兩個對象實體之間固定一個恆定的角度組裝</span></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0"> </span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0"> </span></pre><h2>第七章</h2>
 <h2>第八章</h2>
 <h2>第九章</h2>
 <h2>繪圖練習</h2>
