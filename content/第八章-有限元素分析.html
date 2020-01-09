@@ -143,7 +143,7 @@ img.add_border {
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li><a href='實作影片.html'>實作影片</a><li class='has-children'><a href='NX教材.html'>NX教材</a><ul class='dropdown'><li><a href='第一章-簡介.html'>第一章-簡介</a><li><a href='第二章-入門.html'>第二章-入門</a><li><a href='第三章 -二維草圖.html'>第三章 -二維草圖</a><li><a href='第四章-三維建模.html'>第四章-三維建模</a><li><a href='第五章-製圖.html'>第五章-製圖</a><li><a href='第六章-裝配與建模.html'>第六章-裝配與建模</a><li><a href='第七章-自由曲面建模.html'>第七章-自由曲面建模</a><li><a href='第八章.html'>第八章</a><li><a href='第九章.html'>第九章</a><li><a href='繪圖練習.html'>繪圖練習</a></li></ul><li><a href='About.html'>About</a><li><a href='Develop.html'>Develop</a></li>
+                     <li><a href='實作影片.html'>實作影片</a><li class='has-children'><a href='NX教材.html'>NX教材</a><ul class='dropdown'><li><a href='第一章-簡介.html'>第一章-簡介</a><li><a href='第二章-入門.html'>第二章-入門</a><li><a href='第三章 -二維草圖.html'>第三章 -二維草圖</a><li><a href='第四章-三維建模.html'>第四章-三維建模</a><li><a href='第五章-製圖.html'>第五章-製圖</a><li><a href='第六章-裝配與建模.html'>第六章-裝配與建模</a><li><a href='第七章-自由曲面建模.html'>第七章-自由曲面建模</a><li><a href='第八章-有限元素分析.html'>第八章-有限元素分析</a><li><a href='第九章-製造.html'>第九章-製造</a><li><a href='繪圖練習.html'>繪圖練習</a></li></ul><li><a href='About.html'>About</a><li><a href='Develop.html'>Develop</a></li>
                       </ul>
                 </nav>
               </div>
@@ -154,8 +154,57 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">第八章 << <a href='第八章.html'>Previous</a> <a href='繪圖練習.html'>Next</a> >> 繪圖練習<br /><h1>第九章</h1>
-<br />第八章 << <a href='第八章.html'>Previous</a> <a href='繪圖練習.html'>Next</a> >> 繪圖練習</div>
+    <div id="tipue_search_content">第七章-自由曲面建模 << <a href='第七章-自由曲面建模.html'>Previous</a> <a href='第九章-製造.html'>Next</a> >> 第九章-製造<br /><h1>第八章-有限元素分析</h1>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">有限元分析（FEA）是有限元方法（FEM）的實際應用
+預測結構或流體對應用因素（例如力，壓力，
+熱量和振動。通常，該過程從創建幾何模型開始。然後
+將模型細分（網格化）為連接的簡單幾何形狀的小塊（元素）
+在特定的節點上。材料特性和邊界條件分別應用於
+元件。最終，諸如NX 12之類的軟件解決了該FEA問題並輸出了結果，
+可視化。它有助於工程師在使用之前更好地了解產品性能。
+它是經過製造和測試的。
+FEA的一些應用包括結構分析，熱分析，流體流動動力學，
+和電磁兼容性。其中，FEA最常用於結構和實體
+力學應用程序來計算機械性能（例如應力和位移）。
+這些通常對硬件的性能至關重要，可用於預測故障。<br/><span><em><strong>8.1概述</strong></em><br/>8.1.1元素形狀和節點 <br/>可以根據維數和元素的類型將元素分為不同類型。 元素中的節點數。以下是一些用於 離散化<br/></span></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">一維元素<br/><span>二維元素</span><br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">三維元素</span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">8.1.2解決步驟
+開始仿真：可以從以下之一選擇求解器：NX Nastran，NX Nastran
+聲學，NX Nastran振動聲學，NX Nastran設計，Samcef，NX熱/流量，
+Simcenter電子系統冷卻，Simcenter空間系統熱學，NX Multiphysics，
+Simcenter Acoustics BEM，MSC Nastran，Ansys，Abaqus和LS-DYNA。另外，您可以
+選擇要執行的分析類型。在本教程中，僅結構分析將是
+覆蓋了NX Nastran設計。
+選擇材料屬性：這使您可以更改將要使用的材料屬性。
+分配給模型。例如，如果我們使用鋼製造葉輪，則可以輸入
+材料特性，例如密度，泊鬆比等。也可以保存這些材料特性
+可以在圖書館中使用以備將來使用，也可以從材料庫中檢索。
+應用載荷：此選項允許您應用不同類型的載荷，例如力或
+固體上的壓力以及方向和大小。
+應用邊界條件：簡單來說，邊界條件限制了度
+元素的自由。一些元件可以旋轉固定，而某些則可以限制
+從平移運動。
+網格物體網格劃分：用於將模型離散化為有限元。通常，我們選擇
+元素的四面體形狀近似。您仍然可以選擇2D和1D元素
+根據情況和要求，從下拉菜單中選擇這些選項。
+解決方案和結果：這是根據選定的問題求解所有控制方程的命令
+解算器以及以上所有選項。這樣可以解決問題並給出分析結果<br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0">8.1.3仿真導航器
+Simulation Navigator提供了激活功能
+現有解決方案，創建新解決方案，並使用創建的解決方案
+通過創建和修改運動對象來構建機制。
+要顯示Simulation Navigator，
+➢單擊資源中的Simulation Navigator選項卡
+如圖所示的條
+它顯示了為模型創建的仿真的列表。每一個
+模擬，它顯示載荷，邊界條件，類型的列表
+網格，結果，生成的報告等。</span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0"> </span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0"></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0"></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0"><span></span><br/></span></pre>
+<br />第七章-自由曲面建模 << <a href='第七章-自由曲面建模.html'>Previous</a> <a href='第九章-製造.html'>Next</a> >> 第九章-製造</div>
         
     <!-- footer -->
       <div class="container">
