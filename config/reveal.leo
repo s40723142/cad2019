@@ -21,6 +21,15 @@
 <v t="leo.20180902120523.9"><vh>封面投影片</vh>
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20200110090936.1"><vh>封面投影片</vh>
+<v t="leo.20200110090936.4"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20200110092018.1"><vh>封面投影片</vh>
+<v t="leo.20200110092018.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20200110093457.1"><vh>封面投影片</vh>
+<v t="leo.20200110093457.2"><vh>封面投影片內容</vh></v>
+</v>
 <v t="leo.20180902120523.11"><vh>快捷鍵</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
 </v>
@@ -45,15 +54,12 @@
 </vnodes>
 <tnodes>
 <t tx="leo.20180902120523.1"></t>
-<t tx="leo.20180902120523.10">## cad2019-40723142
+<t tx="leo.20180902120523.10">&lt;small&gt;
+國立虎尾科技大學-電腦輔助設計實習-40723142-設計二甲-詹昇澤
+##  [個人倉儲](https://github.com/s40723142/cad2019)
 
-
-&lt;small&gt;
-Created by [個人倉儲](https://github.com/s40723142/cad2019)
-
-
-&lt;small&gt;
-Created by [個人網站](https://s40723142.github.io/cad2019/content/index.html)
+##  [個人網站](https://s40723142.github.io/cad2019/content/index.html)
+##  [youtube](https://www.youtube.com/channel/UChOrQpx9gIQiFTdrAuHVc9g?view_as=subscriber)
 
 
 </t>
@@ -159,7 +165,9 @@ make.start()
 @others
 
 </t>
-<t tx="leo.20180902120523.4">&lt;!doctype html&gt;
+<t tx="leo.20180902120523.4">
+
+&lt;!doctype html&gt;
 &lt;html lang="en"&gt;
 @others
 &lt;/html&gt;
@@ -245,6 +253,7 @@ CMSimfly 網際內容管理
 &lt;/section&gt;
 
 
+
 						
 </t>
 <t tx="leo.20180902120538.1"></t>
@@ -323,5 +332,44 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
+<t tx="leo.20200110090936.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200110090936.4">
+[NX繪圖練習](https://www.youtube.com/watch?v=-ldPmhzKgWQ&amp;feature=emb_logo)
+</t>
+<t tx="leo.20200110092018.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200110092018.2">
+[solvespace](https://s40723142.github.io/cad2019/content/%E5%AF%A6%E4%BD%9C%E5%BD%B1%E7%89%87.html)
+</t>
+<t tx="leo.20200110093457.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200110093457.2">
+[NX教材](https://s40723142.github.io/cad2019/content/NX%E6%95%99%E6%9D%90.html)
+</t>
 </tnodes>
 </leo_file>
